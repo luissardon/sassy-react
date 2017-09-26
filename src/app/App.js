@@ -9,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <GlobalHeader />
+        <button type="button">SEARCH</button>
       </div>
     );
   }
