@@ -1,8 +1,8 @@
-@import '../../styles/globals';
+@import '../../../styles/globals';
 
 $background-color: color( gray-dark );
 
-.GlobalHeader {
+.Header {
   background-color: $background-color;
   color: white;
   display: block;
@@ -10,12 +10,12 @@ $background-color: color( gray-dark );
   padding: 20px;
 }
 
-.GlobalHeader-logo {
-  animation: GlobalHeader-logo-spin infinite 20s linear;
+.Header-logo {
+  animation: Header-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-@keyframes GlobalHeader-logo-spin {
+@keyframes Header-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
