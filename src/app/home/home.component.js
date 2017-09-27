@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import './home.component.scss';
+
+import Searchbar from '../common/searchbar/searchbar.component';
 
 class HomeComponent extends Component {
 
   render() {
     return (
-      <div className="Home">
-        <h2 className="Home-title">Home</h2>
-        <hr />
-        <div className="Home-container">
-          <Link className="Home-link" to="/s">Search ></Link>
+      <div>
+        <Searchbar />
+
+        <div className="Home">
+          <h2 className="Home-title">Home</h2>
+          <hr />
+          <div className="Home-container">
+          </div>
         </div>
       </div>
     );
